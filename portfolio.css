@@ -1,9 +1,32 @@
-body{
+
+body {
+    margin: 0;
+    padding-top: 80px; /* hauteur de ta navbar */
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    
-
 }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+    background-color: white; /* IMPORTANT */
+    transition: all 0.3s ease; /* animation douce */
+}
+
+/* Etat quand on scroll */
+header.scrolled {
+    background-color: rgba(255, 255, 255, 0.85); /* transparence */
+    backdrop-filter: blur(10px); /* effet glass moderne */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
 
 body, header, section, h1, h2,h3, p, hr {
     margin: 0;
@@ -404,14 +427,12 @@ address{
     gap: 15px;
   }
 
-  nav {
-    text-align: center;
-  }
-
-  nav a {
-    font-size: 1.3rem;
-    margin: 8px;
-  }
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
   /* A PROPOS */
   #a-propos {
