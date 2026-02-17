@@ -145,7 +145,7 @@ address{
   font-size: 110px;
   color: rgb(0, 0, 0);
   text-align: center; 
-  margin-top: 110px;
+  margin-top: 110px;    
 }
 
 
@@ -375,5 +375,74 @@ address{
     box-sizing: border-box;
     margin-bottom: 75px;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+/*----------------------------------------RESPONSIVE---------------------------------------------------*/
+
+
+@media (max-width: 768px) {
+
+  /* HERO */
+  #hero {
+    font-size: 70px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .h3 {
+    font-size: 55px;
+    margin-top: 60px;
+  }
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 1.3rem;
+    margin: 8px;
+  }
+
+  /* A PROPOS */
+  #a-propos {
+    padding: 80px 20px;
+  }
+
+  .apropos-images {
+    flex-direction: column;
+  }
+
+  /* INFOS GRID */
+  .infos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* PROJETS */
+  .projets {
+    padding: 0 20px 60px 20px;
+  }
+
+  .element-projet {
+    width: 100%;
+  }
+
+  /* LOGO */
+  #logo_Poulard {
+    margin-left: 0;
+    display: block;
+    margin: 20px auto;
+  }
+
 }
 
