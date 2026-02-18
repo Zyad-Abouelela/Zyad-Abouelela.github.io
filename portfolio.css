@@ -414,7 +414,6 @@ address{
   #hero {
     font-size: 70px;
     padding: 20px;
-    margin:10px ;
   }
 
   h1 {
@@ -470,6 +469,13 @@ nav {
     display: block;
     margin: 20px auto;
   }
+    
+    #logo_bd{
+        margin-left: 0;
+        display: block;
+        margin: 20px auto;
+  }
+
 
 }
 
