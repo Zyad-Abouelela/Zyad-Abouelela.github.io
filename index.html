@@ -5,12 +5,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="portfolio.css">
         <meta charset="UTF-8">
-        <title>Mon Portfolio</title>
+        <title>Zyad Abou elela | Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body id="top">
-        
     <header>
         <h1 id="Accueil">ZYAD ABOU ELELA</h1>
         <nav>
@@ -33,15 +32,16 @@
                 <h1>À propos de moi</h1>
 
                 <p>
-                Je suis étudiant en informatique passionné par le développement
-                web et l’intelligence artificielle. J’aime concevoir des projets
-                techniques et apprendre continuellement de nouvelles technologies.
+                    Je suis étudiant en informatique, passionné par le développement web et l’intelligence artificielle.
+                    J’aime concevoir des projets techniques concrets et apprendre continuellement de nouvelles 
+                    technologies afin d’enrichir mes compétences.
                 </p>
 
                 <p>
-                Actuellement en BUT Informatique à Sorbonne Paris Nord,
-                je développe mes compétences en programmation,
-                bases de données et machine learning.
+                    Actuellement en BUT Informatique à Sorbonne Paris Nord, je développe mes connaissances en programmation,
+                    bases de données et machine learning. Passionné également par les voyages, j’aspire à pouvoir un jour allier
+                    l’informatique et la découverte du monde,
+                    car combiner ces deux centres d’intérêt serait pour moi une expérience particulièrement enrichissante.
                 </p>
             </div>
 
@@ -124,7 +124,7 @@
 
         <div class="projets">
             <div class="element-projet">
-                <h1>Choipeaux Magique</h1>
+                <h1>Choixpeau Magique</h1>
                 <p>Développement en Python d’un système de répartition d’élèves inspiré du Choixpeau magique dans Harry Potter,
                     basé sur un questionnaire et un algorithme de similarité comparant les réponses des élèves
                     à celles des fondateurs des maisons.
@@ -138,19 +138,24 @@
             <div class="element-projet">
                 <h1>Base de Données</h1>
                 <p>
-                    Conception et implémentation en PostgreSQL d’une base de données dédiée au rapportage de la qualité des eaux de baignade pour la saison 2024, à partir d’un schéma relationnel fourni.
-                    Le projet inclut la rédaction manuelle du script SQL de création des tables, la modélisation de la base à l’aide d’un
-                    Atelier de Génie Logiciel permettant la génération automatique du script et la comparaison des deux approches, ainsi que
-                    le peuplement des données à partir de fichiers CSV officiels via des tables temporaires et des requêtes de projection, dans
-                    le cadre d’un travail méthodique d’intégration et de structuration des informations.<br><br>
-                    Compétences : PostgreSQL | SQL | Modélisation de bases de données | Manipulation de données | Analyse comparative 
-                    
+                    Conception et implémentation en PostgreSQL d’une base de données dédiée au rapportage de la qualité des eaux de baignade pour la saison 2024.
+                    Rédaction du script SQL de création des tables, modélisation via un Atelier de Génie Logiciel et peuplement
+                    des données à partir de fichiers CSV officiels à l’aide de tables
+                    temporaires et de requêtes de projection, dans le cadre d’un travail d’intégration et de structuration des données.<br><br>
+                    Compétences : PostgreSQL | SQL | Modélisation de bases de données | Manipulation de données 
                 </p>
                 <img src="image_bd_sae.png" alt="Image Base de Données" id="logo_bd"/>
             </div>
             <div class="element-projet">
                 <h1>Machine Learning AI</h1>
-                <p>description</p>
+                <p>
+                    Apprentissage des bases du Machine Learning, incluant l’étude des différentes méthodes de
+                    régression et de l’algorithme de Gradient Descent pour l’optimisation des modèles.
+                    Ce travail s’accompagne de la manipulation de données, de leur visualisation avec Matplotlib et de leur 
+                    traitement numérique avec NumPy, afin de comprendre les mécanismes fondamentaux de l’entraînement et de l’évaluation des modèles prédictifs.<br><br>
+                    Compétences : Python | Machine Learning | Régression | Optimisation (Gradient Descent) Analyse de données <br>   NumPy | Matplotlib
+                </p>
+                <img src="logo_IA.png" alt="Image Machine learning" id="logo_IA"/>
             </div>
 
         </div>
@@ -162,11 +167,20 @@
 
     <section class="contactez-moi" id="Contact">
          <h1>Contactez-moi</h1>
-        <p>Vous avez un projet ou une question ? N’hésitez pas à me contacter !</p>
+        <p>Vous avez un conseil ou une question ? N’hésitez pas à me contacter !</p>
     <a href="./cv_zyad_abouelela.pdf" target="_blank"
-        style="background-color: #333; color: white; padding: 10px 20px; border-radius: 5px;margin: 10px; text-decoration: none; display: inline-block;">
+        style="background-color: #333; color: white; padding: 15px 20px; border-radius: 10px;margin: 20px; text-decoration: none; display: inline-block;">
         Voir mon CV
     </a>
+    <p class="social-icons">
+        <a href="https://www.linkedin.com/in/zyad0ab" target="_blank" rel="noopener">
+            <img id="linkedin" src="logo-linkediln.png" alt="LinkedIn">
+        </a>
+
+        <a href="https://github.com/zyad0ab" target="_blank" rel="noopener">
+            <img id="github" src="GitHub-Logo.png" alt="GitHub">
+        </a>
+    </p>
 
 
     </section>
@@ -211,7 +225,8 @@
                 header.classList.remove("scrolled");
             }
         });
-</script>
+
+    </script>
 
 
     </body>
