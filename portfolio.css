@@ -44,6 +44,12 @@ h1 a {
     color: inherit;
 }
 
+h1 a:hover {
+    color: gray;       /* change la couleur au survol */
+    cursor: pointer;   /* montre que c’est cliquable */
+}
+
+
 #hero{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 250px;
