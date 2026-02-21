@@ -38,10 +38,9 @@ h1{
    font-size: 45px;
    color: rgb(0, 0, 0);
 }
-
-h1 a {
+header h1 a {
+    color: black;   /* force le noir */
     text-decoration: none;
-    color: inherit;
 }
 
 h1 a:hover {
