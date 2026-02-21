@@ -39,11 +39,6 @@ h1{
    color: rgb(0, 0, 0);
 }
 
-header h1 a {
-    all: unset;
-    cursor: pointer; /* pour garder le curseur cliquable */
-}
-
 #hero{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 250px;
